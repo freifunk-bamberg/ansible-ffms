@@ -26,6 +26,9 @@
     - vnstat
     - tmux
     - pastebinit
+    - iptables-persistent
+    - strace
+    - socat
 
 - name: add sshkeys for server
   authorized_key: 
