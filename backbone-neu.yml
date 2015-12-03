@@ -1,0 +1,15 @@
+---
+# Playbook zur Konfiguration von Backbone Servern 
+
+- hosts: backbone
+  remote_user: root
+  roles:
+    - ipforwarding
+    - bird
+    - common
+    - hostname
+    - bind
+    
+ 
+
+

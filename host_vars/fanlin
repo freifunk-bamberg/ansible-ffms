@@ -5,6 +5,7 @@
 # ID des Servers. 
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
 server_id: 2
+server_besitzer: Arnim Faryn / FanLin
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
