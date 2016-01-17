@@ -57,6 +57,7 @@ remue-06	ansible_ssh_host=148.251.208.173
 [domaene-06]
 remue-04	ansible_ssh_host=148.251.208.168
 greyworm-05	ansible_ssh_host=89.163.139.196
+testserver	ansible_ssh_host=87.139.67.77
 
 [domaene-waf]
 ffwaf-srv2	ansible_ssh_host=109.75.184.228
