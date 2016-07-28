@@ -1,20 +1,16 @@
 # Variablen für Backbone-Server
 
 ffms_routing:
-  net: 2a03:2260:115::/48
+  net: 2a03:2260:300c::/48
   domaenen:
   - group_name: domaene-01
-    v6_net: 2a03:2260:115:100::/56
+    v6_net: 2a03:2260:300c:100::/64
   - group_name: domaene-02
-    v6_net: 2a03:2260:115:200::/56
+    v6_net: 2a03:2260:300c:200::/64
   - group_name: domaene-03
-    v6_net: 2a03:2260:115:300::/56
+    v6_net: 2a03:2260:300c:300::/64
   - group_name: domaene-04
-    v6_net: 2a03:2260:115:400::/56
-  - group_name: domaene-05
-    v6_net: 2a03:2260:115:500::/56
-  - group_name: domaene-06
-    v6_net: 2a03:2260:115:600::/56
+    v6_net: 2a03:2260:300c:400::/64
 
   
 # Collectd Konfiguration 
@@ -26,11 +22,7 @@ collectd:
   collect_sysctl: true
 
 administratorenteam:
-  - "parad0x"
-  - "void"
-  - "kgbvax"
-  - "fanlin"
-  - "fungur"
-  - "descilla"
+  - "rene"
+  - "tom"
+  - "jay"
   - "mpw"
-  - "paulinsche"
