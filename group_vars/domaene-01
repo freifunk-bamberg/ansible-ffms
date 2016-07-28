@@ -13,10 +13,10 @@ gre_ffms:
 # Parameter für das eigene Freifunk-Netzwerk
 ff_network:
   # IPv4 Adressraum
-  v4_network: 10.43.8.0/21
+  v4_network: 10.210.8.0/21
 
   # IPv6 adressraum
-  v6_network: 2a03:2260:115:100::/64 
+  v6_network: 2a03:2260:300c:100::/64 
 
 
 # Konfigurationen für die Verbindung zum Freifunk Rheinland 
@@ -56,7 +56,7 @@ dhcp:
 # Einstellungen für fastd
 fastd:
   # Port auf dem fastd laufen soll
-  port: 14250
+  port: 10000
   # soll fastd traffic über iptables rule 42 laufen (nur bei backbone server)
   ip_rule_42: False
 
@@ -75,12 +75,8 @@ bind:
     - 10.43.8.11    
  
 administratorenteam:
-  - "parad0x"
-  - "void" 
-  - "kgbvax"
-  - "fanlin"
-  - "fungur"
-  - "descilla"
+  - "rene"
+  - "tom" 
+  - "jay"
   - "mpw"
-  - "paulinsche"
 
