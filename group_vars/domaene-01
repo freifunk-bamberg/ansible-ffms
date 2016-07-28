@@ -56,7 +56,7 @@ dhcp:
 # Einstellungen für fastd
 fastd:
   # Port auf dem fastd laufen soll
-  port: 10000
+  port: 10001
   # soll fastd traffic über iptables rule 42 laufen (nur bei backbone server)
   ip_rule_42: False
 
