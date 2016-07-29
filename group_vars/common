@@ -1,5 +1,0 @@
-# Variablen für die Host-Gruppe common
-
-administratorenteam:
-# Variable muss leer (wie jetzt) oder mit gültigen Werten gefüllt sein.
-#   - "beispieladmin"

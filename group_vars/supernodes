@@ -1,8 +1,0 @@
-
-  
-# Variablen für die Host-Gruppe supernodes
-administratorenteam:
-  - "rene"
-  - "tom"
-  - "jay"
-  - "mpw"
