@@ -14,19 +14,30 @@ server_ipv4_nat: 185.66.193.30/31
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
 ffrl_tun:
-- name: dus
+- name: dus-a
   gre_target: 185.66.193.0
   v4_local: 100.64.3.217/31
   v4_remote: 100.64.3.216/31
   v6_local: 2a03:2260:0:1f6::2/64
   v6_remote: 2a03:2260:0:1f6::1/64
-- name: ber
+- name: dus-b
+  gre_target: 185.66.193.1
+  v4_local: 100.64.3.221/31
+  v4_remote: 100.64.3.220/31
+  v6_local: 2a03:2260:0:1f8::2/64
+  v6_remote: 2a03:2260:0:1f8::1/64
+- name: ber-a
   gre_target: 185.66.195.0
   v4_local: 100.64.3.215/31
   v4_remote: 100.64.3.214/31
   v6_local: 2a03:2260:0:1f5::2/64
   v6_remote: 2a03:2260:0:1f5::1/64
-    
+- name: ber-b
+  gre_target: 185.66.195.1
+  v4_local: 100.64.3.219/31
+  v4_remote: 100.64.3.218/31
+  v6_local: 2a03:2260:0:1f7::2/64
+  v6_remote: 2a03:2260:0:1f7::1/64
 domaenenliste:
    "1":
       dhcp_start: 10.210.8.26
