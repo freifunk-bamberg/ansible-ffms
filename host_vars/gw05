@@ -9,30 +9,30 @@ server_besitzer: "Rene"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
-server_ipv4_nat: 185.66.193.30/31
+server_ipv4_nat: 185.66.193.30/32
     
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
 ffrl_tun:
-- name: dus-a
+- name: dus_a
   gre_target: 185.66.193.0
   v4_local: 100.64.3.217/31
   v4_remote: 100.64.3.216/31
   v6_local: 2a03:2260:0:1f6::2/64
   v6_remote: 2a03:2260:0:1f6::1/64
-- name: dus-b
+- name: dus_b
   gre_target: 185.66.193.1
   v4_local: 100.64.3.221/31
   v4_remote: 100.64.3.220/31
   v6_local: 2a03:2260:0:1f8::2/64
   v6_remote: 2a03:2260:0:1f8::1/64
-- name: ber-a
+- name: ber_a
   gre_target: 185.66.195.0
   v4_local: 100.64.3.215/31
   v4_remote: 100.64.3.214/31
   v6_local: 2a03:2260:0:1f5::2/64
   v6_remote: 2a03:2260:0:1f5::1/64
-- name: ber-b
+- name: ber_b
   gre_target: 185.66.195.1
   v4_local: 100.64.3.219/31
   v4_remote: 100.64.3.218/31
@@ -40,19 +40,19 @@ ffrl_tun:
   v6_remote: 2a03:2260:0:1f7::1/64
 
 domaenenliste:
-   "1":
+   "01":
       dhcp_start: 10.210.8.26
       dhcp_ende: 10.210.11.255
       server_id: 5
-   "2":
+   "02":
       dhcp_start: 10.210.16.26
       dhcp_ende: 10.210.19.255
       server_id: 5
-   "3":
+   "03":
       dhcp_start: 10.210.24.26
       dhcp_ende: 10.210.27.255
       server_id: 5
-   "4":
+   "04":
       dhcp_start: 10.210.32.26
       dhcp_ende: 10.210.35.255
       server_id: 5
