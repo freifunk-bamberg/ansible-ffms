@@ -24,7 +24,7 @@ services ansible_ssh_host=1.1.1.1
 # Gateways mit oder ohne Direktanbindung FFRL
 # Immer mit Multidomänen-L2TP
 gw05 ansible_ssh_host=178.63.78.115 ansible_ssh_port=3922  # Direktanbindung FFRL
-gw06 ansible_ssh_host=178.63.78.115 ansible_ssh_port=3922  # Direktanbindung FFRL
+gw06 ansible_ssh_host=136.243.106.61 ansible_ssh_port=3922  # Direktanbindung FFRL
 
 # Sonstige Server
 [firmware]
