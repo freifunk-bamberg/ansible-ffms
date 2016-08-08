@@ -11,6 +11,8 @@ ffms_routing:
     v6_net: 2a03:2260:300c:300::/64
   - group_name: domaene-04
     v6_net: 2a03:2260:300c:400::/64
+  - group_name: domaene-05
+    v6_net: 2a03:2260:300c:500::/64
 
   
 # Collectd Konfiguration 
