@@ -28,13 +28,13 @@ domaenen:
     ffv6_network: 2a03:2260:300c:400::/64
     map_scale: 1.1
     firmware: ffaw/
-  "04":
+  "05":
     name: Saarland
     community: Saarland
     ffv4_network: 10.210.80.0/20
     ffv6_network: 2a03:2260:300c:500::/64
     map_scale: 1.1
-    firmware: ffaw/
+    firmware: ffsl/
   
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
